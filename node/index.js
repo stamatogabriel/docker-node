@@ -29,7 +29,7 @@ connection.query(queryName, function (error, results, fileds) {
 connection.end()
 
 app.get('/', (req, res) => {
-  res.send(`<h1>Full Cycle </h1><br /> <h2>You're rock, ${name.name}`)
+  res.send(`<h1>Full Cycle Rocks!</h1><br /> <h2>You're rock, ${name.name}`)
 })
 
 app.listen(port, () => {
